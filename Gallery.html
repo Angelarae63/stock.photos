@@ -7,26 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Photo Gallery</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <style>
+      #header {
+        font-family: 'Courgette', cursive;
+        background: url(https://images.unsplash.com/photo-1553585988-4319f2e6f542?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
+      }
+    </style>
+    <title>Fiber Gallery</title>
   </head>
   <body>
-    <div class="jumbotron">
-      
-    <h1 class="display-2 text-center">Photo Gallery</h1> 
-    <p class="lead text-center">
-        A gallery of fiber related photos for the yarn obsessed
-    </p> 
-      <hr class=my-4>  
     
-      <p class="text-center">Learn how to add your photos to the gallery</p>
-    <div class="container">
+<div class="container">
 
-      <a class="btn btn-info btn-center btn-lg" href="#" role="button">Learn More</a>
+<div id    = "header" class = "jumbotron text-center">
+<h1  class = "display-3">Fiber Gallery</h1>
+<p   class = "lead">A Gallery of fiber related photos for the yarn obsessed</p>
+<button type="button" class="btn btn-secondary btn-lg">Learn More</button>
+</div>
+
+<div class="row">
+    <div class="col-lg-4 col-sm-6">
+      <div class="thumbnail">
+        <img src="https://images.unsplash.com/photo-1466584241662-8cb021032c1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" class="img-thumbnail">
+      </div>
     </div>
-    
-
+    <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1550376026-7375b92bb318?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=652&q=80" class="img-thumbnail">
+        </div>
+    </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1527180718958-1721e2518786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1270&q=80" class="img-thumbnail">
+        </div>
+      </div>
+  </div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
